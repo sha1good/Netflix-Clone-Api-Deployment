@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 
 app.use(
   cors({
-    origin: ["https://netflix-clone-client-app01.netlify.app","https://netflix-clone-admin-app01.netlify.app"," https://m.youtube.com"]
+    origin: ["https://clone-netflix-client-app01.netlify.app","https://clone-netflix-admin-app01.netlify.app"," https://m.youtube.com"]
   })
 );
 
